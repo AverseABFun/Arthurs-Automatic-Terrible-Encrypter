@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     393366537156633601       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Arthur's Automatic Terrible Encrypter"      # Project title
+  author:       "Arthur"      # Your name
+  discord:      "AverseABFun"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "automatically uses a bunch of XORs to easily and quickly encode 7 bits with another 7 bit password"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -14,33 +14,33 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Write Enable"
+  ui[1]: "Data In 0"
+  ui[2]: "Data In 1"
+  ui[3]: "Data In 2"
+  ui[4]: "Data In 3"
+  ui[5]: "Data In 4"
+  ui[6]: "Data In 5"
+  ui[7]: "Data In 6"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "Data Out 0"
+  uo[1]: "Data Out 1"
+  uo[2]: "Data Out 2"
+  uo[3]: "Data Out 3"
+  uo[4]: "Data Out 4"
+  uo[5]: "Data Out 5"
+  uo[6]: "Data Out 6"
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
+  uio[0]: "Password 0"
+  uio[1]: "Password 1"
+  uio[2]: "Password 2"
+  uio[3]: "Password 3"
+  uio[4]: "Password 4"
+  uio[5]: "Password 5"
+  uio[6]: "Password 6"
   uio[7]: ""
 
 # Do not change!
