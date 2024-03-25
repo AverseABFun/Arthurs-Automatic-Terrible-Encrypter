@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Automatically XORs the data in and password together and stores the data as well as automatically XORing the output to get the correct data. Has 7-bit storage with 7-bit password.
 
 ## How to test
 
-Explain how to use your project
+Put in any data into the data in and password with writing enabled and then read the data back easily putting the password in with write enable off.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+none
